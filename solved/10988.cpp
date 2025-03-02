@@ -1,21 +1,22 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
-string str;
-int cnt[26];
+string s, Rstr;
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   cout.tie(NULL);
 
-  cin >> str;
-  for (char a : str) {
-    cnt[a - 'a']++;
-  }
+  cin >> s;
+  Rstr = s;
+  reverse(Rstr.begin(), Rstr.end());
 
-  for (int i : cnt) {
-    cout << i << " ";
+  if (Rstr == s) {
+    cout << 1;
+  } else {
+    cout << 0;
   }
 
   return 0;

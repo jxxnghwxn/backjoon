@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string str;
+string s;
 int cnt[26];
 
 int main() {
@@ -9,8 +9,8 @@ int main() {
   cin.tie(NULL);
   cout.tie(NULL);
 
-  cin >> str;
-  for (char a : str) {
+  cin >> s;
+  for (char a : s) {
     cnt[a - 'a']++;
   }
 
