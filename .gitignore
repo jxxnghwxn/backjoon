@@ -1,1 +1,7 @@
 *.exe
+
+
+#clion
+cmake-bulid-debug
+CMakeLists.txt
+.idea
