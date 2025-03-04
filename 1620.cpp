@@ -6,5 +6,6 @@ int main() {
   cin.tie(NULL);
   cout.tie(NULL);
 
+  cout << "hello";
   return 0;
 }
