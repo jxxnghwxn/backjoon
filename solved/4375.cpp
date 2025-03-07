@@ -11,13 +11,9 @@ int main() {
   // cout.tie(nullptr);
 
   while (cin >> n) {
-    v.push_back(n);
-  }
-
-  for (int i = 0; i < v.size(); i++) {
-    n = v[i];
     home = 1;
     cnt = 1;
+
     while (1) {
       if (home % n == 0) {
         cout << cnt << "\n";
